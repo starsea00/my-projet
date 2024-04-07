@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,40 +11,40 @@
     background: radial-gradient(circle, rgba(80,111,217,1) 0%, rgba(68,100,208,1) 14%, rgba(5,26,97,1) 88%, rgba(3,16,92,1) 99%, rgba(4,25,143,1) 100%);
     height: 60px;
     box-shadow: 0px 1px;
-  }
+}
   
-  .menu-foto {
+.menu-foto {
     width: 45px;
     margin-left: 1em;
-  }
+}
   
-  .menu {
+.menu {
     gap: 1em;
-  }
+}
   
-  .sumario {
+.sumario {
     border: none;
     border-radius: 20px;
     background-color: #080678;
     color: white;
     font-weight: 700;
-  }
+}
   
-  .nav1 {
+.nav1 {
     font-size: 20px;
-  }
+}
   
-  .area1, .area2, .area3, .area4, .area5 {
+.area1, .area2, .area3, .area4, .area5 {
     font-size: 16px;
     padding-top: 5px;
-  }
+}
   
-  .menu a {
+.menu a {
     text-decoration: none;
     color: white;
-  }
+}
   
-  .site {
+.site {
     font-family: "Nunito";
     font-weight: semibold;
     font-style: normal;
@@ -53,68 +53,79 @@
     margin-right: 230px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
   
-  .social .instagram-logo, .tiktok-logo {
+.social .instagram-logo, .tiktok-logo {
     width: 25px;
     gap: 1em;
     margin-bottom: 3px;
-  }
+}
   
-  .social .youtube-logo {
+.social .youtube-logo {
     width: 32px;
     gap: 18px;
-  }
+}
   
-  body {
+body {
     font-family: "Nunito";
     font-weight: 500;
     font-style: normal;
-  }
+}
   
-  summary {
+summary {
     list-style: none;
-  }
-  
-  .acolhimento {
+}
+
+.anuncios {
+    background-color: grey;
+    border-bottom: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.acolhimento {
     margin: 50px 32px;
     font-family: "DM Serif Display";
     font-weight: 500;
     font-size: 18px;
-  }
+}
   
-  .descricao {
+.descricao {
     margin: 25px 32px;
     font-size: 16px;
-  }
+}
   
-  .destaque {
+.destaque {
     font-weight: 800;
     color: #0f1557;
-  }
+}
   
-  section {
+section {
     margin: 10px 32px;
-  }
   
-  article {
+}
+
+section h2, h3 {
+    justify-content: center;
+}
+article {
     margin: 10px;
     display: inline-block;
     border: 1px solid #334894;
     border-radius: 10px;
-  }
+}
   
-  article img {
+article img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
+}
   
-  article a {
+  
+article a {
     text-decoration: none;
     color: black;
-  }
+}
   
-  footer {
+footer {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -123,4 +134,4 @@
     width: 100%;
     background-color: #334894;
     color: white;
-  }
+}
