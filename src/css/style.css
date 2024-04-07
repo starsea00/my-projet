@@ -14,6 +14,7 @@ header {
 }
   
 .menu-foto {
+    width: 28px;
     margin-left: 1em;
 }
   
@@ -107,13 +108,13 @@ summary {
 }
   
 section {
-    margin: 10px 32px;
-  
+    margin: 0 2em;
 }
 
 section h2, h3 {
-    justify-content: center;
+    text-align: center;
 }
+
 article {
     margin: 10px;
     display: inline-block;
