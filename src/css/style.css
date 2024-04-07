@@ -14,8 +14,8 @@ header {
 }
   
 .menu-foto {
-    width: 28px;
-    margin-left: 1em;
+    width: 26px;
+    margin-left: 20px;
 }
   
 .menu {
@@ -48,7 +48,7 @@ header {
     font-family: "Nunito";
     font-weight: semibold;
     color: white;
-    margin-right: 500px;
+    margin-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -56,12 +56,12 @@ header {
 .h1-desenvolve {
     font-style: normal;
     font-size: 28px;
-    gap: 5px;
 }
 
 .h1-enem {
-    fonte-size: 30px;
+    fonte-size: 40px;
     font-style: italic;
+    font-weight: regular;
 }
 
 .social .instagram-logo, .tiktok-logo {
