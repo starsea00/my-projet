@@ -45,11 +45,11 @@
   
   .site {
     font-family: "Nunito";
-    font-weight: 800;
+    font-weight: semibold;
     font-style: normal;
-    font-size: 35px;
+    font-size: 26px;
     color: white;
-    margin-right: 216px;
+    margin-right: 230px;
   }
   
   .social .instagram-logo, .tiktok-logo {
