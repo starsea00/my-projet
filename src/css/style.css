@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(80,111,217);
+    background: radial-gradient(circle, rgba(80,111,217,1) 0%, rgba(68,100,208,1) 14%, rgba(5,26,97,1) 88%, rgba(3,16,92,1) 99%, rgba(4,25,143,1) 100%);
+    height: 15px;
+    box-shadow: 0px 1px;
+  }
+  
+  .menu-foto {
+    width: 45px;
+  }
+  
+  .menu {
+    gap: 1em;
+  }
+  
+  .sumario {
+    border: none;
+    border-radius: 20px;
+    background-color: #080678;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .nav1 {
+    font-size: 20px;
+  }
+  
+  .area1, .area2, .area3, .area4, .area5 {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .site {
+    font-family: "Nunito";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    color: white;
+    margin-right: 216px;
+  }
+  
+  .social .instagram-logo, .tiktok-logo {
+    width: 25px;
+    margin-right: 16px;
+    margin-bottom: 3px;
+  }
+  
+  .social .youtube-logo {
+    width: 32px;
+    margin-right: 18px;
+  }
+  
+  body {
+    font-family: "Nunito";
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  summary {
+    list-style: none;
+  }
+  
+  .acolhimento {
+    margin: 50px 32px;
+    font-family: "DM Serif Display";
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .descricao {
+    margin: 25px 32px;
+    font-size: 16px;
+  }
+  
+  .destaque {
+    font-weight: 800;
+    color: #0f1557;
+  }
+  
+  section {
+    margin: 10px 32px;
+  }
+  
+  article {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #334894;
+    border-radius: 10px;
+  }
+  
+  article img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  article a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #334894;
+    color: white;
+  }
