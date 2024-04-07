@@ -15,6 +15,7 @@
   
   .menu-foto {
     width: 45px;
+    margin-left: 1em;
   }
   
   .menu {
@@ -50,19 +51,19 @@
     font-size: 28px;
     color: white;
     margin-right: 230px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
   
   .social .instagram-logo, .tiktok-logo {
     width: 25px;
-    margin-right: 16px;
+    gap: 1em;
     margin-bottom: 3px;
   }
   
   .social .youtube-logo {
     width: 32px;
-    margin-right: 18px;
+    gap: 18px;
   }
   
   body {
