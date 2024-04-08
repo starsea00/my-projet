@@ -49,9 +49,7 @@ header {
 }
   
 .site {
-    justify-content: left;
     font-family: "Nunito";
-    font-weight: semibold;
     color: white;
     margin-right: 20%;
     padding-top: 10px;
@@ -61,12 +59,13 @@ header {
 .h1-desenvolve {
     font-style: normal;
     font-size: 28px;
+    font-weight: 600;
 }
 
 .h1-enem {
     fonte-size: 40px;
     font-style: italic;
-    font-weight: regular;
+    font-weight: 400;
 }
 
 .social {
