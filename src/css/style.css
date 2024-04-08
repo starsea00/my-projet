@@ -106,7 +106,7 @@ section {
     margin: 0 2em;
 }
 
-.conteudos h2, h3 {
+.conteudos, h3 {
     text-align: center;
 }
 
