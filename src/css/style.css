@@ -61,10 +61,13 @@ header {
 }
 
 .social {
-    width: 25px;
     gap: 1em;
 }
-  
+
+.social .instagram-logo, .tiktok-logo {
+    width: 20px;
+}
+
 .social .youtube-logo {
     width: 32px;
 }
@@ -73,10 +76,11 @@ header {
     text-decoration: none;
 }
 
-body {
+.content {
     font-family: "Nunito";
     font-weight: 500;
-    font-style: normal;
+    padding-top: 3em;
+    transition: 2s;
 }
   
 summary {
