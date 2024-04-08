@@ -68,6 +68,10 @@ header {
     font-weight: regular;
 }
 
+.social {
+    justify-content: right;
+}
+
 .social .instagram-logo, .tiktok-logo {
     width: 25px;
     gap: 1em;
