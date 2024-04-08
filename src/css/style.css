@@ -50,21 +50,16 @@ header {
   
 .site {
     font-family: "Nunito";
+    font-size: 28px;
+    font-weight: 700;
     color: white;
     margin-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.h1-desenvolve {
-    font-style: normal;
-    font-size: 28px;
-    font-weight: 600;
-}
-
 .h1-enem {
     fonte-size: 40px;
-    font-style: italic;
     font-weight: 400;
 }
 
