@@ -1,21 +1,26 @@
 root {
-    --color-blue1: rgb(80,111,217);
+    --cor-azul1: rgb(80,111,217);
+    --cor-sombra: #414f66;
 }
 
 * {
     margin: 0;
     padding: 0;
 }
-  
-header {
+
+header, .social {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+}
+
+header {
+    justify-content: space-between;
     background: var(--color-blue1);
     background: radial-gradient(circle, rgba(80,111,217,1) 0%, rgba(68,100,208,1) 14%, rgba(5,26,97,1) 88%, rgba(3,16,92,1) 99%, rgba(4,25,143,1) 100%);
     height: 60px;
-    padding: 0 10%;
-    box-shadow: 0px 1px;
+    padding: 10px 10%;
+    box-shadow: 1px 1px 3px var(--cor-sombra);
 }
 
 .menu-foto {
@@ -52,23 +57,22 @@ header {
     font-family: "Nunito";
     font-size: 28px;
     font-weight: 800;
-    text-align: center;
     color: white;
-    margin-right: 20%;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.social .instagram-logo, .tiktok-logo {
+.social {
     width: 25px;
-    margin-right: 1em;
-    margin-bottom: 3px;
+    gap: 1em;
 }
   
 .social .youtube-logo {
     width: 32px;
 }
-  
+
+.social a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Nunito";
     font-weight: 500;
