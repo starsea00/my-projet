@@ -49,6 +49,7 @@ header {
 }
   
 .site {
+    justify-content: left;
     font-family: "Nunito";
     font-weight: semibold;
     color: white;
