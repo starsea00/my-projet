@@ -23,36 +23,13 @@ header {
     box-shadow: 1px 1px 3px var(--cor-sombra);
 }
 
-.menu-foto {
-    width: 26px;
-}
-  
-.menu {
-    gap: 1em;
-}
-  
-.sumario {
+.menu-responsivo {
+    background-color: transparent;
     border: none;
-    border-radius: 20px;
-    background-color: #080678;
     color: white;
-    font-weight: 700;
+    cursor: pointer;
 }
-  
-.nav1 {
-    font-size: 20px;
-}
-  
-.area1, .area2, .area3, .area4, .area5 {
-    font-size: 16px;
-    padding-top: 5px;
-}
-  
-.menu a {
-    text-decoration: none;
-    color: white;
-}
-  
+
 .site {
     font-family: "Nunito";
     font-size: 28px;
