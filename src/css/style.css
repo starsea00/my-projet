@@ -61,13 +61,13 @@ header {
 
 .social .instagram-logo, .tiktok-logo {
     width: 25px;
-    gap: 1em;
+    margin-right: 1em;
     margin-bottom: 3px;
 }
   
 .social .youtube-logo {
     width: 32px;
-    gap: 18px;
+    margin-right: 18px;
 }
   
 body {
