@@ -80,12 +80,6 @@ summary {
     list-style: none;
 }
 
-.anuncios {
-    background-color: grey;
-    border-bottom: 1px solid transparent;
-    border-radius: 20px;
-}
-
 .acolhimento {
     margin: 50px 32px;
     font-family: "DM Serif Display";
